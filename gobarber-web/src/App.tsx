@@ -1,5 +1,13 @@
 import React from 'react';
 
-const App: React.FC = () => <h1>Hello World</h1>;
+import SignIn from './pages/SignIn';
+import GlobalStryle from './styles/global';
+
+const App: React.FC = () => (
+  <>
+    <SignIn />
+    <GlobalStryle />
+  </>
+);
 
 export default App;
